@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/drawer_layout"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:context="com.bridgelabz.com.appscreen.MainActivity"
+        >
+
+        <include
+            android:id="@+id/app_bar"
+            layout="@layout/app_bar"
+            app:layout_scrollFlags="scroll|enterAlways"/>
+
+        <com.bridgelabz.com.appscreen.Tbas.SlidingTabLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/primaryColor"
+            android:id="@+id/tabs"
+            />
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <fragment
+        android:id="@+id/fragment_navigation_drawer"
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:name="com.bridgelabz.com.appscreen.Fragment.NavigationDrawerFragment"
+        tools:layout="@layout/fragment_navigation_drawer" />
+
+</android.support.v4.widget.DrawerLayout>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/AppThemes">
+
+    <include
+    layout="@layout/downtoolbar"
+    android:id="@+id/app_bar"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_alignParentBottom="true"
+
+    xmlns:android="http://schemas.android.com/apk/res/android" />
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+            <include
+                layout="@layout/demo"
+                android:id="@+id/toolbar2"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+
+                />
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cropImg1"
+            android:layout_below="@+id/toolbar2"
+            android:layout_above="@+id/app_bar"
+            android:layout_alignParentEnd="true" />
+
+
+
+
+
+</RelativeLayout>
+
+
+
+
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_above="@+id/app_bar"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:id="@+id/cropImg1"/>-->
+
+
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#2196F3</color>
+    <color name="primaryColorDark">#fbc02d</color>
+    <color name="accentColor">#ffff</color>
+    <color name="colorHighLight">#d6d6d6</color>
+    <color name="textColor">#FFF</color>
+    <color name="ColorPrimaryDark">#00695C</color>
+
+
+
+    <color name="colortoolbar">#a951d6</color>
+    <color name="backgroundpage">#fd5caabe</color>
+    <color name="txtcolor">#73edcd</color>
+    <color name="primarycolor">#d664d6</color>
+    <color name="primarycolor1">#fafcfd</color>
+    <color name="darkprimary">#5e61b9</color>
+    <color name="accent">#06dede</color>
+    <color name="stroke">#d6cfc8</color>
+    <color name="rec">#feffff</color>
+
+
+    <color name="toolbarTextColor">#FFFFFF</color>
+    <color name="toolbar_color">#2196F3</color>
+</resources>

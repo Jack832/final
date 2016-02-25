@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/bridgelabz4/final/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="/home/bridgelabz4/final/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.0_9f4294439ecdb14ce4b430471ded4e10334ed74b.jar" />
+    </item>
+    <item
+        jar="/home/bridgelabz4/final/app/build/intermediates/exploded-aar/com.astuetz/pagerslidingtabstrip/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="7912610ed96381c25c36d986eba422731b9641b6">
+        <dex dex="/home/bridgelabz4/final/app/build/intermediates/pre-dexed/debug/com.astuetz-pagerslidingtabstrip-1.0.1_24eb2f1afb107c4607bb013a06f10fa4678050e7.jar" />
+    </item>
+    <item
+        jar="/home/bridgelabz4/final/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3abb4b88f5a8a0584a9b01d3170d7165f12f8588">
+        <dex dex="/home/bridgelabz4/final/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-22.2.1_2c392cbea8645ccf8563769db6d04c5d1533390f.jar" />
+    </item>
+    <item
+        jar="/home/bridgelabz4/final/app/build/intermediates/exploded-aar/org.lucasr.dspec/dspec/0.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="dab41681007f3d86a532a5d90295cc6feb9e258b">
+        <dex dex="/home/bridgelabz4/final/app/build/intermediates/pre-dexed/debug/org.lucasr.dspec-dspec-0.1.1_1641c59895f9eac957fd8e3acd7cff6e2e181be2.jar" />
+    </item>
+    <item
+        jar="/home/bridgelabz4/final/app/build/intermediates/exploded-aar/com.flipboard/bottomsheet-core/1.4.3/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="eb5db1a2fff40e31592c12069212688b2293fb08">
+        <dex dex="/home/bridgelabz4/final/app/build/intermediates/pre-dexed/debug/com.flipboard-bottomsheet-core-1.4.3_5f06351f7225441b71504a7c44b53cb99d402ccf.jar" />
+    </item>
+    <item
+        jar="/home/bridgelabz4/final/app/build/intermediates/exploded-aar/com.android.support/palette-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="060b30a619b8d3ba053e1d7dc08b3fdf0dd81530">
+        <dex dex="/home/bridgelabz4/final/app/build/intermediates/pre-dexed/debug/com.android.support-palette-v7-22.2.0_c1d4ed856e86a830d992613e87bea0652e64f8cc.jar" />
+    </item>
+    <item
+        jar="/home/bridgelabz4/final/app/build/intermediates/exploded-aar/com.cocosw/query/0.2.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="216190e4154472cede67bd309eb828a03bc0292b">
+        <dex dex="/home/bridgelabz4/final/app/build/intermediates/pre-dexed/debug/com.cocosw-query-0.2.2_c4f1b3ecfcfff41c01fe10cf0a528687090584d3.jar" />
+    </item>
+    <item
+        jar="/home/bridgelabz4/final/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/home/bridgelabz4/final/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-22.2.1_febb0fdaef1820576d2af16ab6db114c012d6c01.jar" />
+    </item>
+    <item
+        jar="/home/bridgelabz4/Downloads/android-sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.0/support-annotations-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="/home/bridgelabz4/final/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.0_a58f2f74d02040fc847af2136943872822a91405.jar" />
+    </item>
+    <item
+        jar="/home/bridgelabz4/final/app/build/intermediates/exploded-aar/com.weiwangcn.betterspinner/library/1.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b8399b3ef86b9fe9fbfb2171bb6560ff3c49d468">
+        <dex dex="/home/bridgelabz4/final/app/build/intermediates/pre-dexed/debug/com.weiwangcn.betterspinner-library-1.1.0_647c7267cce2758a9437ae32e310980643be8115.jar" />
+    </item>
+    <item
+        jar="/home/bridgelabz4/final/app/build/intermediates/exploded-aar/com.oguzdev/CircularFloatingActionMenu/1.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="607d961caf1a59b6e782724654c1f3229e036c20">
+        <dex dex="/home/bridgelabz4/final/app/build/intermediates/pre-dexed/debug/com.oguzdev-CircularFloatingActionMenu-1.0.2_e40acac7e267790e257422912f2858f69169d0f1.jar" />
+    </item>
+    <item
+        jar="/home/bridgelabz4/final/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="/home/bridgelabz4/final/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.0_9fd7ae8cc8d587ad088d342513b8b1d6d4f1e4a1.jar" />
+    </item>
+    <item
+        jar="/home/bridgelabz4/final/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e1fa5e1123997a55e3ed65b44892993ff4b58cfe">
+        <dex dex="/home/bridgelabz4/final/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-22.2.1_800a591cb02558e6893752bcd51acd47c728f37a.jar" />
+    </item>
+    <item
+        jar="/home/bridgelabz4/final/app/build/intermediates/exploded-aar/com.android.support/design/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="/home/bridgelabz4/final/app/build/intermediates/pre-dexed/debug/com.android.support-design-22.2.0_19070d23738ddc4876744417e5e7851d22b75aaf.jar" />
+    </item>
+
+</items>

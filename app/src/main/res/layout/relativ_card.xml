@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    android:id="@+id/list1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/txtc1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#77bbf70a"
+        android:elevation="5dp"
+        android:text="PAGES"
+        android:textColor="@color/txtcolor" />
+    <!-- 1st recycler-->
+
+    <android.support.v7.widget.RecyclerView
+
+        android:id="@+id/RV1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/txtc1">
+
+    </android.support.v7.widget.RecyclerView>
+    <!--<include android:id="@+id/tooolbar3"-->
+    <!--layout="@layout/newtool2">-->
+
+    <!--</include>-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="#77bbf70a"
+        android:elevation="5dp"
+        android:text="MEDIA"
+        android:textColor="@color/txtcolor" />
+    <!-- 2nd recycler-->
+    <android.support.v7.widget.RecyclerView
+
+        android:id="@+id/RV2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#77bbf70a"
+        android:elevation="5dp"
+        android:text="PARTICIPANTS"
+        android:textColor="@color/txtcolor" />
+
+    <!--third recycler-->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/RV3"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

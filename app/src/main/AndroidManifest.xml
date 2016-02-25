@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bridgelabz.com.appscreen">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SetName"
+            android:parentActivityName=".Registration" />
+        <activity android:name=".Home"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Login"
+            android:parentActivityName=".Home"/>
+        <activity android:name=".demo"
+            android:parentActivityName=".Login"
+            android:theme="@style/AppTheme.CustomTheme"/>
+
+        <activity android:name=".Media.MediaDemo"
+            android:parentActivityName=".Login"
+            android:label="Media_Title"/>
+
+        <activity android:name=".Media.AllMedia"
+            android:parentActivityName=".Login"/>
+
+        <activity android:name=".Registration"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Contactinfo"
+            android:parentActivityName=".Login">
+
+        </activity>
+        <activity android:name=".Add_Content"
+            android:parentActivityName=".Login"/>
+        <activity android:name=".Media.VideoPlay"
+            android:label="@string/mediaView"
+            android:parentActivityName=".Login"/>
+
+        <receiver android:name=".IncomingSms" android:enabled="true">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED"/>
+            </intent-filter>
+        </receiver>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.READ_SMS" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+</manifest>

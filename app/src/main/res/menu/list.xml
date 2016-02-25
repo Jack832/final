@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Content_Info"
+        android:title="Content Info"
+        android:icon="@drawable/add"
+        />
+    <item android:id="@+id/Content_View" android:title="Content View" android:icon="@drawable/add"/>
+    <item android:id="@+id/Email_Content" android:title="Email Content" android:icon="@drawable/add"/>
+    <item android:id="@+id/Archive_Content" android:title="Archive Content" android:icon="@drawable/add"/>
+    <item android:id="@+id/Delete_Content" android:title="Delete Content" android:icon="@drawable/add"/>
+
+</menu>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android.support.design="http://schemas.android.com/tools"
+    android:background="@color/primaryColor"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:id="@+id/ic_login"
+        android:src="@drawable/login_ic"
+        android:paddingLeft="50dp" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hintTextAppearance="@style/TextAppearance.AppCompat.Small.Inverse">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/UserName"
+            android:layout_below="@+id/ic_login"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="38dp"
+            android:hint="Username"
+            android:textColorHint="@android:color/white"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hintTextAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/Password"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="38dp"
+            android:hint="Password"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/Login"
+        android:text="Login"
+        android:background="@drawable/ripple_effect"
+        android:layout_marginTop="70dp"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/Registration"
+        android:text="New User Registration"
+        android:background="@drawable/ripple_effect"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/Facebook"
+        android:text="Login with Facebook"
+        android:background="@drawable/ripple_effect"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        android:drawableLeft="@drawable/facebook"
+        android:paddingLeft="70dp"
+        />
+
+</LinearLayout>
